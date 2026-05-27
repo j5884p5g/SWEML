@@ -1,4 +1,6 @@
-# Conda environment management
+# Conda environment
+Triggering workflow.
+ management
 
 **The only file you should need to edit in this folder is `conda/environment.yml`. This file defines the set of conda-packages needed to render the full website.**
 
